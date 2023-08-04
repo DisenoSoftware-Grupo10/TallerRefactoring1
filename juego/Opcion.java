@@ -1,6 +1,7 @@
-public interface Opcion {
+public abstract class Opcion {
 
     @Override
-    public String toString();
+    public abstract String toString();
     
+    public void compararCon(Object other){};
 }
